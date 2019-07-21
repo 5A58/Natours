@@ -11,6 +11,7 @@ body {
   text-transform: uppercase;
 
   /* prevent animation from shaking */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
